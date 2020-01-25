@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todoapp';
+  textField= "";
+    tasks=[];
+    index:number=0;
+    addTask(){
+      this.tasks.push(this.textField)
+    }
 }
